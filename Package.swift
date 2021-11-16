@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-	name: "JTMaterialSpinner",
+	name: "JTMaterialSpinnerPackage",
     platforms: [.iOS(.v10)],
-    products: [.library(name: "JTMaterialSpinner", targets: ["JTMaterialSpinner"])],
+    products: [.library(name: "JTMaterialSpinner", targets: ["JTMaterialSpinnerPackage"])],
     targets: [
-        .target(name: "JTMaterialSpinner", path: "JTMaterialSpinner")
+        .target(name: "JTMaterialSpinnerPackage", path: "JTMaterialSpinner")
     ],
     swiftLanguageVersions: [SwiftVersion.v5]
     
